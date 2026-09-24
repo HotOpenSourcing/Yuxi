@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node init && vite",
     "server": "vite serve --host",
     "server:prod": "vite serve --host --port 8080",
-    "build": "vite build",
+    "build": "node init && vite build",
     "test:unit": "node --test --test-concurrency=1 \"test/**/*.test.js\" \"test/**/*.spec.js\"",
     "preview": "vite preview",
     "lint": "eslint . --fix --cache",
